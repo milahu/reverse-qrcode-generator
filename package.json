@@ -1,0 +1,19 @@
+{
+  "name": "reverse-qrcode-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --clearScreen false",
+    "build": "vite build",
+    "preview": "sirv dist --no-clear"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.31",
+    "qrcode": "^1.5.0",
+    "svelte": "^3.44.2",
+    "vite": "^2.7.1"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
+  }
+}
